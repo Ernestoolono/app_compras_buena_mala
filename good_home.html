@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tienda</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="app-container">
+
+  <header class="topbar">
+    <h2>ERNESTSHOP</h2>
+
+    <div class="top-actions">
+      <div class="cart-info">
+        🛒 <span id="cartCount">0</span> | $<span id="total">0</span>
+      </div>
+      <button class="logout-btn" onclick="logout()">Cerrar sesión</button>
+    </div>
+  </header>
+
+  <div class="content">
+
+    <!-- PRODUCTOS -->
+    <section class="products-section">
+
+      <div class="product-card" id="p1">
+        <h3>Producto 1</h3>
+        <p>$100</p>
+        <button onclick="addToCart('Producto 1',100,'p1')">Agregar</button>
+      </div>
+
+      <div class="product-card" id="p2">
+        <h3>Producto 2</h3>
+        <p>$150</p>
+        <button onclick="addToCart('Producto 2',150,'p2')">Agregar</button>
+      </div>
+
+      <div class="product-card" id="p3">
+        <h3>Producto 3</h3>
+        <p>$200</p>
+        <button onclick="addToCart('Producto 3',200,'p3')">Agregar</button>
+      </div>
+
+    </section>
+
+    <!-- CARRITO -->
+    <aside class="cart-section">
+      <h3>Carrito</h3>
+      <ul id="cartList"></ul>
+    </aside>
+
+  </div>
+</div>
+
+<script src="GOOD.js"></script>
+</body>
+</html>
