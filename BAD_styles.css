@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #d9d9d9;
+  min-height: 100vh;
+}
+
+/* REGISTER */
+.bad-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.bad-card {
+  background: white;
+  width: 420px;
+  padding: 20px;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,.2);
+}
+
+.bad-card h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.bad-card input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 9px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.bad-card button {
+  width: 100%;
+  padding: 10px;
+  background: #888;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* HOME */
+.bad-app {
+  padding: 20px;
+}
+
+.bad-topbar {
+  background: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.bad-content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 15px;
+}
+
+.bad-products {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.bad-product {
+  background: white;
+  padding: 15px;
+  border: 1px solid #bbb;
+}
+
+.bad-cart {
+  background: white;
+  padding: 15px;
+  border: 1px solid #bbb;
+}
